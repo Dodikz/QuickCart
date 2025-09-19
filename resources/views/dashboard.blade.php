@@ -30,6 +30,7 @@
                     <p class="text-2xl font-semibold text-gray-900 dark:text-white sm:text-3xl">35</p>
                 </div>
             </x-card>
+            a
 
             <x-card class="flex flex-col items-center gap-4 bg-gray-400 dark:bg-gray-800">
                 <div class="flex h-12 w-12 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900">
@@ -44,6 +45,7 @@
 
         <x-card>
             testig
+            anjay
         </x-card>
     </div>
 </x-layouts.app>
