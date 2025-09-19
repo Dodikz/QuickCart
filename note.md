@@ -6,7 +6,6 @@
 6.setup route
 7.setup controler
 8.setup view
-9.setup api
 
 
 php artisan make:model Category -mcr
