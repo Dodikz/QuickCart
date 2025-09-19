@@ -61,6 +61,48 @@ select:focus[data-flux-control] {
     @apply outline-hidden ring-2 ring-accent ring-offset-2 ring-offset-accent-foreground;
 }
 
+/* Hide scrollbar */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.dark::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--color-zinc-800);
+    border-radius: 0.25rem; /* rounded corners */
+}
+
+/* Scrollbar umum */
+::-webkit-scrollbar {
+    margin-right: 15px;
+    width: 5px; /* lebar scrollbar */
+    height: 5px; /* untuk horizontal */
+}
+
+/* Track (jalur background scrollbar) */
+::-webkit-scrollbar-track {
+    background: transparent; /* bisa diganti warna */
+}
+
+/* Thumb (batang yang digeser) */
+::-webkit-scrollbar-thumb {
+    background: #a1a1aa92; /* zinc-400 */
+    border-radius: 9999px; /* bikin bulat */
+}
+
+/* Hover efek */
+::-webkit-scrollbar-thumb:hover {
+    background: #71717a; /* zinc-500 */
+}
+
+/* Active efek */
+::-webkit-scrollbar-thumb:active {
+    background: #52525b; /* zinc-600 */
+}
+
+
 /* \[:where(&)\]:size-4 {
     @apply size-4;
 } */

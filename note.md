@@ -10,6 +10,7 @@
 
 
 php artisan make:model Category -mcr
-php artisan make:model Profuct -mcr
+php artisan make:model Product -mcr
 php artisan make:model Cart -mcr
 php artisan make:model Order -mcr
+php artisan make:model OrderItems -mcr
